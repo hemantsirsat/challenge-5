@@ -59,7 +59,7 @@
 .rating-container {
     display: flex;
     align-items: center;
-    width: 25rem;
+    width: 26rem;
     height: 3rem;
     background-color: hsl(300,24%,96%);
     border-radius:0.5rem;
