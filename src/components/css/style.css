@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.left-section {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: -5rem;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.heading {
+    color: hsl(300,43%,22%);
+    font-family: 'Spartan', sans-serif;
+    font-size: 4.5ch;
+    font-weight: 800;
+    /* margin-left: 2rem; */
+    width: 60%;
+}
+
+.description {
+    color: hsl(303,10%,53%);
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.4ch;
+    font-weight: 500;
+    /* margin-left: 2rem; */
+    width: 70%;
+    line-height: 1.3rem;
+    margin-top: -1.5rem;
+}
+
+.rating1, .rating2, .rating3 {
+    padding: 0.5rem;
+}
+
+.rating2 {
+    margin-left: 5rem;
+}
+
+.rating3 {
+    margin-left: 10rem;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    height: 3rem;
+    background-color: hsl(300,24%,96%);
+    border-radius:0.5rem;
+}
+
+.star {
+    margin-left:1.5rem;
+}
+
+.star img {
+    margin-right: 0.4rem;
+}
+
+.rate {
+    margin-left: 1.5rem;
+    color: hsl(300,43%,22%);
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.5ch;
+    font-weight:700;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+.review-card {
+    display: flex;
+    width: 20rem;
+    height: 13rem;
+    background-color: hsl(300,43%,22%);
+    border-radius: 0.5rem;
+}
+
+.review-content {
+    padding: 1rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.details {
+    display: flex;
+    /* align-items: center; */
+    margin-left: 1rem;
+    flex-direction: column;
+}
+
+.name {
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.3ch;
+    font-weight: 600;
+}
+
+.designation {
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.2ch;
+    font-weight: 600;
+    color: hsl(333,80%,67%);
+    margin-top: -0.5rem;
+}
+
+.profile img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.review {
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.2ch;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    line-height: 1.1rem;
+}
+
+.review2 {
+    margin-top: 2rem;
+}
+
+.review3 {
+    margin-top: 4rem;
+}
+
+.review1, .review2, .review3 {
+    padding: 0.5rem;
+}
+
+@media (max-width:868px){
+    .heading {
+        width: 80%;
+    }
+    
+    .description {
+        width: 80%;
+    }
+}
+
+@media(max-width:668px){
+    .top-section {
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .left-section {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right-section {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 1rem;
+        justify-content: center;
+        margin-left: 0;
+    }
+    
+    .heading {
+        margin-left: 0;
+        width: 100%;
+        font-size: 3ch;
+    }
+    
+    .description {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0.2rem;
+    }
+    
+    .rating2 {
+        margin-left: 0;
+    }
+    
+    .rating3 {
+        margin-left: 0;
+    }
+    
+    .rating-container {
+        flex-direction: column;
+        padding: 0.7rem;
+        width: 18rem;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+    
+    .review-card {
+        width: 20rem;
+    }
+
+    .review1, .review2, .review3 {
+        padding: 0.4rem;
+    }
+
+    .review2 {
+        margin-top: 0rem;
+    }
+    
+    .review3 {
+        margin-top: 0rem;
+    }   
+}
