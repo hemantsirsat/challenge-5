@@ -204,6 +204,14 @@
         width: 100%;
         margin-top: 0.2rem;
     }
+
+    .star {
+        margin-left:0;
+    }
+    
+    .rate {
+        margin-left:0;
+    }
     
     .rating2 {
         margin-left: 0;
